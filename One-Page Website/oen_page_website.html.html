@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>One-page website</title>
+  <style>
+  p {
+  color: black;
+  font-family: arial, san-serif;
+  text-align:center;
+  font-size: 20px;
+  }
+  </style>
+  </head>
+  <h1>Welcome to my webpage</h1>
+         <img src="https://media.gq.com/photos/59dfc6d9d61cb80476584e18/master/pass/guy-fieiri-flame.jpg">
+  <p>this is some random picture of guy</p>
+    <body>
+
+	<!--NAV-->
+   <div>
+     <div>
+	   <ul>
+	        <a href="#Video" id="link><li>Video</li></a>
+	   </ul>
+	 </div>
+   </div>
+   <!--END NAV-->
+   
+   <!--HOME-->
+   <div id="home">
+     <div class="container">
+	   <div class="text-center">
+	     <span class="head-main"></span>
+	   </div>
+	 </div>
+   </div>
+   <!--END HOME-->
+   
+   <!--VIDEO-->
+   <section>
+    <div id="video">
+	<h1>Video</h1>
+	<div>
+	 <video control>
+	 <video src="https://www.youtube.com/watch?v=GMAmEyXKGyw">
+	 </video>
+   <!--END VIDEO-->
+   
+   <p>If something seems to be going wrong plz with the video please contact us here</p>
+   <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="Portland">Portland</option>
+      <option value="Jacksonville">Jacksonville</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+</body>
+</html>
+	
