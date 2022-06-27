@@ -7,7 +7,7 @@ html {
 }
 
 body {
-	font-size: 14px:
+	font-size: 14px;
 	margin: 0;
 	font-family: "Helventica Neue", Helvetica, Arial,  sans-serif;
 	line-height: 1.42857143;
@@ -17,7 +17,7 @@ body {
 
 footer,
 nav { 
-     display:block:
+     display:block;
 }
 
 h1, h2, h3, h4, h5, h6 {
