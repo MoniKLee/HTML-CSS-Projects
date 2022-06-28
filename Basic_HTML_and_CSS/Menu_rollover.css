@@ -183,13 +183,13 @@ section {
 }
 
 .flex-container{
-	display; -webkit-flex;
+	display: -webkit-flex;
 	display: flex;
 	flex-wrap:wrap;
 	padding: 10px;
 	border-radius: 8px;
 	margin: 0px auto;
-	background-color;rgba(100 , 65, 0, .3) ;
+	background-color:rgba(100 , 65, 0, .3) ;
 	box-shadow: 2px 2px 10px 0 rgba(0 , 0, 0, 0.5) ;
 }
 
@@ -295,7 +295,7 @@ section {
 	text-decoration: underline;
 }
 
-.submit input[type="aubmit"] {
+.submit input[type="submit"] {
 	color: rgb(255, 255, 255) ; 
 	cursor: pointer;
 	border: none;
@@ -313,7 +313,7 @@ section {
 	box-shadow: inset 1px 4px 0 rgba(0, 0, 0, 0.3);
 }
 
-.submit input[type"submit":hover] {
+.submit input[type="submit"] :hover {
 	color: #000;
 	background-color: #8D8E8F;
 	box-shadow: inset 1px 2px 15px 0 rgba(0, 0, 0, 0.5);
