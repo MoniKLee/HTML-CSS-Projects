@@ -9,3 +9,13 @@ h1  {
 	border-bottom: 0.8px solid #D3D3D3;
 	border-radius: 30px;
  }
+
+ input {
+	font-family:sans-serif;
+	height: 20px;
+	width:100px;
+	margin-top:10px;
+	margin-left:10px;
+	border-bottom: 0.8px soild #1a0202;
+	border-radius: 30px;
+ }
