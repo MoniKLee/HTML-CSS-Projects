@@ -20,8 +20,8 @@ table, td, tr{
     padding-bottom: 25px;
     padding-left: 25px;
     padding-right: 25px;
-    background-color: #04AA6D;
-    color: rgb(34, 188, 199);
+    background-color: #5614f1;
+    color: rgb(255, 8, 8);
 }
 
 .top-left {
@@ -40,4 +40,28 @@ table, td, tr{
     position: relative;
   text-align: center;
   color: white;
+}
+
+li a:hover {
+  background-color: #555;
+  color: white;
+}
+
+a{
+  color:red;
+}
+
+.column {
+  float: center;
+  width: 20%;
+  background-color: lightgrey;
+  color: blue;
+  height: 200px;
+  width: 50%;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
 }
